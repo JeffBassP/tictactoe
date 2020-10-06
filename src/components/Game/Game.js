@@ -11,14 +11,14 @@ const Game = (players) => {
     const [stepNumber, setStepNumber] = useState(0);
     const [xIsNext, setXisNext] = useState(true);
     const winner = calculateWinner(history[stepNumber]);
-    const [restart, setRestart] = useState(false);
-    const [exit, setExit] = useState(false);
+    
     const xO = xIsNext ? 'X' : 'O';
     let Pl = xIsNext ? player1 : player2;
 
     const handleClick = (i) => {
         const historyPoint = history.slice(0, stepNumber + 1);
         const current = historyPoint[stepNumber];
+        
         const squares = [...current];
 
         if (winner || squares[i]) return;

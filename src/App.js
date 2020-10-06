@@ -10,7 +10,8 @@ function App() {
   const showPlayers = () => {
     setPlayers(true); 
 
-  }
+  };
+
   return (
     
     <div className="App">
