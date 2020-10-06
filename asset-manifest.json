@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/JeffBassP/tictactoe/static/css/main.2e255deb.chunk.css",
+    "main.js": "/JeffBassP/tictactoe/static/js/main.d16f3328.chunk.js",
+    "main.js.map": "/JeffBassP/tictactoe/static/js/main.d16f3328.chunk.js.map",
+    "runtime-main.js": "/JeffBassP/tictactoe/static/js/runtime-main.131334cb.js",
+    "runtime-main.js.map": "/JeffBassP/tictactoe/static/js/runtime-main.131334cb.js.map",
+    "static/js/2.83b4832c.chunk.js": "/JeffBassP/tictactoe/static/js/2.83b4832c.chunk.js",
+    "static/js/2.83b4832c.chunk.js.map": "/JeffBassP/tictactoe/static/js/2.83b4832c.chunk.js.map",
+    "index.html": "/JeffBassP/tictactoe/index.html",
+    "precache-manifest.3e466c0d35054c2111314c0e255d9c71.js": "/JeffBassP/tictactoe/precache-manifest.3e466c0d35054c2111314c0e255d9c71.js",
+    "service-worker.js": "/JeffBassP/tictactoe/service-worker.js",
+    "static/css/main.2e255deb.chunk.css.map": "/JeffBassP/tictactoe/static/css/main.2e255deb.chunk.css.map",
+    "static/js/2.83b4832c.chunk.js.LICENSE.txt": "/JeffBassP/tictactoe/static/js/2.83b4832c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.131334cb.js",
+    "static/js/2.83b4832c.chunk.js",
+    "static/css/main.2e255deb.chunk.css",
+    "static/js/main.d16f3328.chunk.js"
+  ]
+}
