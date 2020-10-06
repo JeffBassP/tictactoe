@@ -35,3 +35,21 @@ li{
     background-color: #fff;
     box-shadow: 10px 10px black;
 }
+
+.btn-game{
+    border: 1px solid darkorchid;
+    background-color: #fff;
+    margin: 20px;
+    color: darkorchid;
+    box-shadow: 7px 7px black;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.buttons-game{
+    display: flex;
+    justify-content: center;
+}
+.btn-game:hover{
+    background-color: #cacaca;
+}

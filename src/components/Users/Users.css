@@ -25,6 +25,9 @@ input{
     background-color: darkorchid;
     cursor: pointer;
 }
+.start-game:hover{
+    background-color: #cacaca;
+}
 
 .buttons-start{
     display: flex;

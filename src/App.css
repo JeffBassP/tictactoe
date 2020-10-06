@@ -21,7 +21,9 @@
 .button-start:hover{
     background-color: #cacaca;
 }
-
+.title{
+    display: flex;
+}
 .title p {
    
     z-index: 2;
@@ -31,6 +33,6 @@
     font-size: 42pt;
     font-family: sans-serif;
     text-shadow: 4px 4px 0px #4AB18E;
-    line-height: 120px;
+    line-height: 50px;
     display: contents;
   }
