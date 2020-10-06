@@ -1,0 +1,36 @@
+.create-users{
+    color:darkorchid;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    border: 1px solid;
+    background-color: #fff;
+    box-shadow: 10px 10px black;
+    width: 300px;
+}
+input{
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid darkorchid;
+    box-shadow: 5px 5px 3px black;
+    
+}
+.start-game{
+    color: white;
+    margin: 20px;
+    border: 1px solid red;
+    padding: 5px;
+    box-shadow: 5px 5px 2px 0px black;
+    background-color: darkorchid;
+    cursor: pointer;
+}
+
+.buttons-start{
+    display: flex;
+}
+
+h1{
+    margin: 20px;
+    font-size: 18px;
+}

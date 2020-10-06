@@ -1,25 +1,32 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
+import CreateUsers from './components/Users/Users';
+
 
 function App() {
+
+  const [players, setPlayers] = useState(false);
+
+  const showPlayers = () => {
+    setPlayers(true); 
+
+  }
   return (
+    
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    
+      <div className='title'>
+      <p>Ｔｉｃ　Ｔａｃ　Ｔｏｅ　ヌフぶ</p>
+      </div>
+      <div>
+        {players ? <div></div> : <div className='button-start' onClick={showPlayers}>Start a new game</div>}
+        {players ? <div></div> : <div className='button-start'>Exit</div>}
+      </div>
+      <div>
+        {players ? <CreateUsers /> : <div></div>}
+      </div>
     </div>
+
   );
 }
 

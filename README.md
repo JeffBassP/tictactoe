@@ -1,3 +1,7 @@
+### TIC TAC TOE WITH React
+
+This project was maded by Jeferson using ReactJs. 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

@@ -1,0 +1,16 @@
+.squares{
+    background-color: #fff;
+    border: none;
+    font-size: 5em;
+    cursor: pointer;
+    outline: none;
+}
+
+.X{
+    color: red;
+
+}
+
+.O{
+    color: green;
+}

@@ -1,0 +1,10 @@
+.board{
+    background: darkorchid;
+    width: 275px;
+    height: 275px;
+    display: grid;
+    grid-template: repeat(3, 1fr)/ repeat(3, 1fr);
+    grid-gap: 1rem;
+    gap: 1rem;
+    margin: 20px;
+}
